@@ -42,3 +42,9 @@ g++ -std=c++17 -o usb_demo main.cpp threadpool.cpp usb_task.cpp -lsetupapi
 [USB] 測試完成：USB Composite Device
 所有 USB 測試完成！
 ```
+
+##  USB 測試執行截圖
+
+這是實際使用 thread pool 執行 USB 偵測任務的 console 輸出結果：
+
+![](images/usb_console_output.png)
